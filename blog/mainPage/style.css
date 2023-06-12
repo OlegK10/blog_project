@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap');
+
+.bg{
+    position: fixed;
+    z-index: -99;
+    width: 100%;
+    height: 100%;
+}
+
+.bg_img{
+    width: 100%;
+    height: 100%;
+}
+
+.main_cont{
+    position: relative;
+    top:70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main_content{
+    position: relative;
+    width: 1200px;
+    background-color: rgba(24,24,24 ,.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.mc_li{
+position: relative;
+margin: 30px 0;
+width: 850px;
+height: 500px;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+background-color: rgba(24,24,24 ,.8);
+box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+.mc_li_img_cont{
+width: 600px;
+display: flex;
+    justify-content: center;
+    margin:0 10px;
+height: 400px;
+}
+.mc_li_img{
+    width: 100%;
+    height: 100%;
+}
+
+.stp{
+width: 100%;
+background-color: rgba(24,24,24 ,.8);
+box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+.mc_li_img_like_cont{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.mc_li_img_like{
+    cursor: pointer;
+    width: 100%;
+    margin: 0 14px;
+}
+
+.stp_tit{
+    font-size: 21px;
+    border-bottom: 1px solid var(--c-m-1);
+    padding: 7px 0;
+    text-align: center;
+}
+
+.stp_gexb{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--c-m-1);
+}
+
+.stp_desc_cont{
+    position: relative;
+    padding:10px;
+    border-bottom: 1px solid var(--c-m-1);
+}
+
+.stp_desc_img{
+    width: 40px;
+    margin-right: 5px;
+    height: 40px;
+}
+
+.stp_des_p_btn{
+    position: relative;
+    display: none;
+    padding: 4px 0 0 0;
+    font-size: 17px;
+    color:var(--c-m-1);
+}
+
+
+.stp_des_p_btn:hover{
+    opacity: .6;
+}
+.stp_des_p_cont{
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.cd_cont{
+    position: fixed;
+    display: none;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    align-items: center;
+    justify-content: center;
+}
+.cd_content{
+    padding: 40px;
+
+}
+.cd_close{
+    font-size: 31px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+}
+
+.cd_items{
+    position: absolute;
+    width: 70%;
+    background-color: var(--c-sh-1);
+
+}
+
+.cd_close:hover{
+    color:var(--c-m-1)
+}
+
+.stp_gexb{
+    cursor: pointer;
+}
+
+.cos_list{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+
+
+.cosi_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.comts_cont{
+    margin-top: 20px;
+    padding: 12px;position: relative;
+}
+
+.cos_li{
+    position: relative;
+    border-bottom: 1px solid var(--c-w-1);
+    padding: 7 14px;
+    margin: 24px 0;
+}
+
+.cos_li_us{
+    display: flex;
+}
+
+.cos_li_us_name{
+    margin: 1px 5px;
+}
+
+.cos_li_con{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: var(--c-sh-1);
+    border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--c-m-1);
+    border-radius: 10px;
+  }
+
+.mleu_frd{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+
+.fr_li_img{
+    width: 40px;
+}
+.fr_img{
+    width: 100%;
+}
+
+.fr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.fr_cont{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    background-color: var(--c-sh-1);
+}
+
+.fr_close{
+    position: absolute;
+    font-size: 21px;
+    right: 10px;
+    top: 10px;
+}
+
+.fr_close:hover, .fri_btn_f:hover{
+color:var(--c-m-1)
+}
+
+.fr_li{
+    position: relative;
+    margin: 21px 14px;
+    width: 80%;
+    display: flex;
+    border-top: 1px solid ;
+    justify-content: space-between;
+    padding: 4px 0;
+}
+
+.fr_li_imna{
+    display: flex;
+}
+
+.fri_name{
+    margin: 0 7px;
+}
+
+.mlenoti{
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    background-color: var(--c-m-1);
+    padding: 2px 5px;
+    border-radius: 50px;
+    font-size: 8px;
+}
+
+.not_con{
+    position: absolute;
+    top: 45px;
+    right: 0;
+    padding: 7px;
+    background-color: var(--c-sh-1);
+    width: 200px;
+    text-align: center;
+    display: none;
+}
+
+.noliimg{
+    width: 30px;
+}
+
+.noli_ui{
+    display: flex;
+    align-items: center;
+}
+
+.noli{
+    border-bottom: 1px solid;
+    padding:7px 0 ;
+    margin-top: 15px;
+}
+
+.noliname{
+    font-size: 14px;
+}
+
+.noli_info{
+    margin-top: 4px ;
+    font-size: 14px;
+}
+
+.not_list{
+    max-height: 200px;
+    overflow-y: scroll;
+}

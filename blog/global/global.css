@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+  	border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: var(--c-w-1) ;
+    font-family:var(--ff-t) ;
+    transition: .2s all;
+    }	
+
+button, a{cursor: pointer;}
+
+.noselect{
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+:root{
+  --ff-t: 'Montserrat', sans-serif;
+
+  --c-sh-1: rgba(18,18,18,.9);
+  --c-sh-2: rgba(51,51,51);
+  --c-w-1:  rgba(248,248,248);
+  --c-m-1:  rgb(205, 92, 92);
+}
+
+/*========= SET PAGE ================*/
+
+.menu{
+    position: fixed;
+    z-index: 88;
+    height: 60px;
+    top:0;
+    width: 100%;
+    background: transparent;
+    box-shadow: inset 0px -114px 88px rgba(24,24,24, 0.95);
+    display: flex;
+    justify-content: center;
+}
+
+.menu_con{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+}
+
+.mri_l{
+    font-family: 'Indie Flower', cursive;
+    font-size: 31px;
+    letter-spacing: 5px;
+    color:var(--c-m-1);
+    font-weight:bold;
+}
+
+.mle_i{
+position: relative;
+margin: 0 24px;
+width: 40px;
+cursor: pointer;
+}
+.mle_list{
+position: relative;
+height: 100%;
+display: flex;
+align-items: center;
+}
+
+.mle_list{
+    display: flex;
+    justify-content: center;
+}
+
+.mle_i_img{
+border-radius: 50px;
+width: 30px;
+height: 30px;
+}
+
+
+.mle_i_img_bell{
+    width: 30px;
+}
+
+.bg{
+    position: fixed;
+    z-index: -99;
+    width: 100%;
+    height: 100%;
+}
+
+.bg_img{
+    width: 100%;
+    height: 100%;
+}
+.not_con{
+  position: absolute;
+  top: 45px;
+  right: 0;
+  padding: 7px;
+  background-color: var(--c-sh-1);
+  width: 200px;
+  text-align: center;
+  display: none;
+}
+
+.noliimg{
+  width: 30px;
+}
+
+.noli_ui{
+  display: flex;
+  align-items: center;
+}
+
+.noli{
+  border-bottom: 1px solid;
+  padding:7px 0 ;
+  margin-top: 15px;
+}
+
+.noliname{
+  font-size: 14px;
+}
+
+.noli_info{
+  margin-top: 4px ;
+  font-size: 14px;
+}
+
+.not_list{
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.mlenoti{
+  position: absolute;
+  top: -2px;
+  right: -4px;
+  background-color: var(--c-m-1);
+  padding: 2px 5px;
+  border-radius: 50px;
+  font-size: 8px;
+}
+/*========= SET PAGE ================*/
